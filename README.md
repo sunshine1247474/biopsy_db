@@ -138,6 +138,10 @@ JOIN
     Treatments T ON B.biopsy_id = T.biopsy_id;
 ```
 
+Here's a revised conclusion section with a clearer explanation for the link to the project repository:
+
+---
+
 ## Conclusion
 
 Creating and maintaining a PostgreSQL database for biopsy data involves:
@@ -147,9 +151,10 @@ Creating and maintaining a PostgreSQL database for biopsy data involves:
 - Optimizing the database with indexing and regular maintenance tasks like `VACUUM` and `ANALYZE`.
 - Utilizing tools like psql, Postbird, or VS Code for database management and querying.
 
-For detailed code examples, including the complete SQL script and database schema diagram, visit the project code repository [here]([https://github.com/sunshine1247474/biopsy_db](https://github.com/sunshine1247474/biopsy_db/blob/main/biopsy_db.sql)).
+For detailed code, including the complete SQL script and database schema diagram, visit the [project repository](https://github.com/sunshine1247474/biopsy_db). This repository provides comprehensive resources to understand and implement the database schema effectively.
 
 ![Database Schema](https://github.com/sunshine1247474/biopsy_db/blob/main/Diagram.png)
 
 ---
 
+* Managing biopsy data effectively ensures accurate medical records and supports informed decision-making in healthcare practices.
