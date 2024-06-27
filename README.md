@@ -157,4 +157,4 @@ For detailed code, including the complete SQL script and database schema diagram
 
 ---
 
-* Managing biopsy data effectively ensures accurate medical records and supports informed decision-making in healthcare practices.
+* It very importamnt to manage biopsy data effectively to ensure accurate medical records and information upon data retrieval for decision-making in any healthcare practices.
