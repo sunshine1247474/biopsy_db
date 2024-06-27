@@ -147,7 +147,7 @@ Creating and maintaining a PostgreSQL database for biopsy data involves:
 - Optimizing the database with indexing and regular maintenance tasks like `VACUUM` and `ANALYZE`.
 - Utilizing tools like psql, Postbird, or VS Code for database management and querying.
 
-For detailed code examples, including the complete SQL script and database schema diagram, visit the project repository [here](https://github.com/sunshine1247474/biopsy_db).
+For detailed code examples, including the complete SQL script and database schema diagram, visit the project code repository [here]([https://github.com/sunshine1247474/biopsy_db](https://github.com/sunshine1247474/biopsy_db/blob/main/biopsy_db.sql)).
 
 ![Database Schema](https://github.com/sunshine1247474/biopsy_db/blob/main/Diagram.png)
 
