@@ -1,0 +1,16 @@
+LOCAL:
+
+set PGPASSWORD=postgres
+psql -U postgres -d biopsy_db -f "C:\Users\itays\Desktop\psql_biopsy_data_project"
+
+open command line as administor and run the following to execute your sql code.
+
+--------------------------------------------------------------------------
+set PGPASSWORD=your_password
+psql -U postgres -d dbname -f /path/to/biopsy_db.sql
+--------------------------------------------------------------------------
+
+requires SQL SERVER:
+
+psql -U postgres -d biopsy_db
+- to access psql and run command thorugh the data base

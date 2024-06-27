@@ -1,0 +1,32 @@
+Table Patients {
+  patient_id SERIAL [pk]
+  first_name VARCHAR(50)
+  last_name VARCHAR(50)
+  date_of_birth DATE
+  gender CHAR(1)
+}
+
+Table Doctors {
+  doctor_id SERIAL [pk]
+  first_name VARCHAR(50)
+  last_name VARCHAR(50)
+  specialty VARCHAR(50)
+}
+
+Table Biopsies {
+  biopsy_id SERIAL [pk]
+  patient_id INTEGER [ref: > Patients.patient_id]
+  doctor_id INTEGER [ref: > Doctors.doctor_id]
+  date DATE
+  result BOOLEAN
+  location VARCHAR(50)
+  type VARCHAR(50)
+}
+
+Table Treatments {
+  treatment_id SERIAL [pk]
+  biopsy_id INTEGER [ref: > Biopsies.biopsy_id]
+  treatment_type VARCHAR(50)
+  start_date DATE
+  end_date DATE
+}
