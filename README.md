@@ -1,5 +1,3 @@
-Certainly! Including code snippets directly in the blog post will provide readers with concrete examples of how to interact with the database schema and perform operations. Here's an updated draft with some code snippets incorporated:
-
 ---
 
 # Managing Biopsy Data: A PostgreSQL Database Example
